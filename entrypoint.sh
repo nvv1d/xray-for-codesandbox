@@ -54,7 +54,7 @@ generate_config() {
         },
         {
             "port":3001,
-            "listen":"127.0.0.1",
+            "listen":"0.0.0.0",
             "protocol":"vless",
             "settings":{
                 "clients":[
@@ -71,7 +71,7 @@ generate_config() {
         },
         {
             "port":3002,
-            "listen":"127.0.0.1",
+            "listen":"0.0.0.0",
             "protocol":"vless",
             "settings":{
                 "clients":[
@@ -100,7 +100,7 @@ generate_config() {
         },
         {
             "port":3003,
-            "listen":"127.0.0.1",
+            "listen":"0.0.0.0",
             "protocol":"vmess",
             "settings":{
                 "clients":[
@@ -127,7 +127,7 @@ generate_config() {
         },
         {
             "port":3004,
-            "listen":"127.0.0.1",
+            "listen":"0.0.0.0",
             "protocol":"trojan",
             "settings":{
                 "clients":[
@@ -154,7 +154,7 @@ generate_config() {
         },
         {
             "port":3005,
-            "listen":"127.0.0.1",
+            "listen":"0.0.0.0",
             "protocol":"shadowsocks",
             "settings":{
                 "clients":[
