@@ -1,4 +1,4 @@
-const server = "127.0.0.1";
+const server = "0.0.0.0";
 const port = 3000;
 const express = require("express");
 const app = express();
